@@ -8,7 +8,7 @@ import Update from "./components/Update";
 
 function App() {
   return (
-    <div className="container bg-dark my-auto">
+    <div className="container">
       <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<Create />}></Route>

@@ -24,14 +24,14 @@ const Create = () => {
   return (
     <>
       <div className="d-flex justify-content-between m-2">
-        <h2 className="text-light">Create</h2>
+        <h2 >Create</h2>
         <Link to="/read">
           <button className="btn btn-primary">Show Data</button>
         </Link>
       </div>
       <form>
         <div className="mb-3">
-          <label className="form-label text-light">Name</label>
+          <label className="form-label ">Name</label>
           <input
             type="text"
             className="form-control"
@@ -40,7 +40,7 @@ const Create = () => {
         </div>
 
         <div className="mb-3">
-          <label className="form-label text-light">Email address</label>
+          <label className="form-label">Email address</label>
           <input
             type="email"
             className="form-control"
